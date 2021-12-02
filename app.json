@@ -9,7 +9,7 @@
          "manager",
          "Ankivector"
       ],   
-   "repository": "https://github.com/Damantha126/The-Anki-Vector",
+   "repository": "https://github.com/Venuja104/The-Anki-Vector",
    "addons": [
       {
          "options": {
@@ -44,7 +44,7 @@
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
-         "required": false,
+         "required": true,
          "value": "sqldbtype://username:pw@hostname:port/db_name"
       },      
       "OWNER_ID": {
@@ -54,12 +54,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Damantha_Jasinghe"
+         "value": "Venuja_Sadew"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "ankivectorUpdates"
+         "value": "AlphaZeroUpdates"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -83,12 +83,12 @@
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
-         "required": false,
+         "required": true,
          "value": "1391755824 1758509403 1848277863"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
-         "required": false,
+         "required": true,
          "value": ""
       }, 
       "STRICT_GBAN": {
@@ -97,22 +97,22 @@
       },
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": false,
+         "required": true,
          "value": "1391755824 1758509403 1848277863"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
-         "required": false,
+         "required": true,
          "value": "1391755824 1758509403 1848277863"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
-         "required": false,
+         "required": true,
          "value": "1391755824 1758509403 1848277863"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
-         "required": false,
+         "required": true,
          "value": "1391755824 1758509403 1848277863"
       },
       "ENV": {
@@ -131,7 +131,7 @@
       },
       "URL": {
          "description": "The Heroku App URL",
-         "required": false,
+         "required": true,
          "value": "https://<appname>.herokuapp.com/"
       },
       "No_LOAD": {
@@ -159,7 +159,7 @@
       },
       "AI_API_KEY": {
       "description": "Make your bot talk using Intellivoid's chatbot API, get your key from https://coffeehouse.intellivoid.net/",
-         "required": false,
+         "required": true,
          "value": ""
       },      
       "BAN_STICKER": {
@@ -169,8 +169,8 @@
       },
       "WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
-         "required": false,
-         "value": ""
+         "required": true,
+         "value": "https://wall.alphacoders.com/big.php?i=1127691"
       }
    },
    "keywords": [
@@ -181,5 +181,5 @@
       "daisy"
    ],
    "name": "Ankivector",
-   "repository": "https://github.com/Damantha126/The-Anki-Vector"
+   "repository": "https://github.com/Venuja104/The-Anki-Vector"
 }
