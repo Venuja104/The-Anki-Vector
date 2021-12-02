@@ -1,5 +1,5 @@
 __help__ = """
-** Anki Vector - A Powerful Telegram Group Manager 🎶 **
+** Alpha Zero - A Powerful Telegram Group Manager 🎶 **
 
 Powerful Abilities
 
@@ -7,8 +7,8 @@ Powerful Abilities
 • File To Link and URL Upload 📂
 • Youtube Downloader 🎵
 
-Developers [TeamAnkiVector🇱🇰](https://t.me/TeamAnkiVector)
+Developers [TeamAlphaZero🇱🇰](https://t.me/TeamAlphaZero)
 
-**~ @TheAnkiVectorBot**
+**~ @TheAlphaZeroBot**
 """
 __mod_name__ = "About"
